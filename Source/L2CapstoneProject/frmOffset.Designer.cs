@@ -65,7 +65,7 @@
             this.label1.Location = new System.Drawing.Point(11, 21);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 13);
+            this.label1.Size = new System.Drawing.Size(105, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "Relative Phase (°)";
             // 
@@ -94,7 +94,7 @@
             this.label2.Location = new System.Drawing.Point(11, 75);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 13);
+            this.label2.Size = new System.Drawing.Size(135, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "Relative Amplitude (dB)";
             // 
@@ -149,6 +149,7 @@
             this.Name = "frmOffset";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add Phase/Amplitude Point";
+            this.Load += new System.EventHandler(this.frmOffset_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numPhase)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numAmp)).EndInit();
             this.groupBox1.ResumeLayout(false);

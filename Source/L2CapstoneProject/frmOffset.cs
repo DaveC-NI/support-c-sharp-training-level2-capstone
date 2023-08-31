@@ -27,7 +27,13 @@ namespace L2CapstoneProject
 
         private void btnOk_Click(object sender, EventArgs e)
         {
+            
             Close();
+        }
+
+        private void frmOffset_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
