@@ -125,6 +125,7 @@ namespace L2CapstoneProject
             if (r == DialogResult.OK)
             {
                 // Add the offset to the listview
+                lsvOffsets
             }
         }
         private void EditOffset(int selected)
