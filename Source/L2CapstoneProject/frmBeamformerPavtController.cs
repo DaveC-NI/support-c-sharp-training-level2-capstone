@@ -125,7 +125,9 @@ namespace L2CapstoneProject
             if (r == DialogResult.OK)
             {
                 // Add the offset to the listview
-                lsvOffsets
+                string[] newOffsets = new string[2];
+                newOffsets[0] = frmOffset.newPhaseAmp.;
+                lsvOffsets.Items.Add;
             }
         }
         private void EditOffset(int selected)

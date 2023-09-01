@@ -5,6 +5,8 @@ namespace L2CapstoneProject
 {
     public partial class frmOffset : Form
     {
+        public PhaseAmplitudeOffset newPhaseAmp;
+
         public enum Mode { Add, Edit }
 
         public Mode ViewMode { get; }
@@ -27,7 +29,10 @@ namespace L2CapstoneProject
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-            
+            double newPhase = Convert.ToDouble(numPhase.Value);
+            double newAmp = Convert.ToDouble(numAmp.Value);
+            newPhaseAmp = new PhaseAmplitudeOffset(newPhase, newAmp);
+
             Close();
         }
 
